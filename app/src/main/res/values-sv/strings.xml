@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">Loaf</string>
+  <string name="About.appName.android">Chauchera</string>
   <!-- About screen blog label -->
   <string name="About.blog">Blogg</string>
+  <!-- About screen telegram label -->
+  <string name="About.telegram">Telegram</string>
+  <!-- About screen facebook label -->
+  <string name="About.facebook">Facebook</string>
+  <!-- About screen github label -->
+  <string name="About.github">Github</string>
+  <!-- About screen facebook label -->
+  <string name="About.website">Website</string>
   <!-- About screen footer -->
-  <string name="About.footer">Skapad av det lokala teamet för Loaf. Version %1$s</string>
+  <string name="About.footer">Skapad av det lokala teamet för Chauchera. Version %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Sekretesspolicy</string>
   <!-- About screen reddit label -->
@@ -23,7 +31,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Laddar plånbok</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Mitt Loaf</string>
+  <string name="AccountHeader.defaultWalletName">Mitt Chauchera</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -35,7 +43,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Det har uppstått ett problem med KeyStore till Android OS. Kontakta contact@loafwallet.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Dina krypterade Loaf-uppgifter har nyligen ogiltigförklarats på grund av att Androids skärmlås inaktiverades.</string>
+  <string name="Alert.keystore.invalidated.android">Dina krypterade Chauchera-uppgifter har nyligen ogiltigförklarats på grund av att Androids skärmlås inaktiverades.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">KeyStore-fel för Android</string>
   <!-- No internet alert message -->
@@ -89,7 +97,7 @@
   <!-- Approve button label -->
   <string name="BitID.approve">Godkänn</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s begär autentisering med hjälp av din Litecoin-plånbok</string>
+  <string name="BitID.authenticationRequest">%1$s begär autentisering med hjälp av din Chaucha-plånbok</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Avslå</string>
   <!-- BitID error alert title -->
@@ -140,8 +148,8 @@
   <string name="ConfirmPaperPhrase.label">Ange följande ord från din ordnyckel, för att vara säker på att allt skrevs korrekt.</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">Ord #%1$s</string>
-  <!-- Litecoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">Litecoin visningsenhet</string>
+  <!-- Chaucha denomination picker label -->
+  <string name="DefaultCurrency.litecoinLabel">Chaucha visningsenhet</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">Växelkurs</string>
   <!-- Email unavailable alert title -->
@@ -171,7 +179,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Kontrollerar privat nyckelsaldo...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Skicka %1$s från denna privata nyckel till din plånbok? Litecoins nätverk tar en avgift på %2$s.</string>
+  <string name="Import.confirm">Skicka %1$s från denna privata nyckel till din plånbok? Chauchas nätverk tar en avgift på %2$s.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Denna privata nyckel finns redan i din plånbok.</string>
   <!-- empty private key error message -->
@@ -189,13 +197,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Plånbok som ska importeras</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Genom att importera en plånbok överförs alla pengar från din andra plånbok till Loaf genom en enda transaktion.</string>
+  <string name="Import.message">Genom att importera en plånbok överförs alla pengar från din andra plånbok till Chauchera genom en enda transaktion.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Denna privata nyckel är lösenordsskyddad.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">lösenord</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Din Loaf-plånbok</string>
+  <string name="Import.rightCaption">Din Chauchera-plånbok</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Läs av privat nyckel</string>
   <!-- Import wallet success alert title -->
@@ -215,9 +223,9 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignorera</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Loafs nyckeldata och stjäla dina Litecoin! Töm denna plånbok direkt och återupprätta den på en säker enhet.</string>
+  <string name="JailbreakWarnings.messageWithBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Chaucheras nyckeldata och stjäla dina Chaucha! Töm denna plånbok direkt och återupprätta den på en säker enhet.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Loafs nyckeldata och stjäla dina Litecoin! Använd Loaf endast på en säker enhet.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Chaucheras nyckeldata och stjäla dina Chaucha! Använd Chauchera endast på en säker enhet.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">VARNING</string>
   <!-- Wipe wallet button -->
@@ -225,7 +233,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Platstjänster är inaktiverade.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">Loaf har inte rätt att utnyttja platstjänster</string>
+  <string name="LocationPlugin.notAuthorized">Chauchera har inte rätt att utnyttja platstjänster</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Du skapade din plånbok på %1$s</string>
   <!-- Manage wallet description text -->
@@ -235,7 +243,7 @@
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">Hantera plånbok</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Köp Litecoin</string>
+  <string name="MenuButton.buy">Köp Chaucha</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Lås plånbok</string>
   <!-- Menu button title -->
@@ -267,7 +275,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Nodens anslutningsstatus</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Litecoin-noder</string>
+  <string name="NodeSelector.title">Chaucha-noder</string>
   <!-- Bad Payment request alert title -->
   <string name="PaymentProtocol.Errors.badPaymentRequest">Felaktig utbetalningsbegäran</string>
   <!-- Error opening payment protocol file message -->
@@ -279,9 +287,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Kunde inte göra utbetalning</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Utbetalning av Litecoin får inte vara lägre än %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Utbetalning av Chaucha får inte vara lägre än %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Utbetalningstransaktioner av Litecoin får inte vara lägre än %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Utbetalningstransaktioner av Chaucha får inte vara lägre än %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">signaturtypen saknar stöd</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -303,7 +311,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaktionen avslogs</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Hjälp till att förbättra Loaf genom att dela dina anonyma data med oss</string>
+  <string name="Prompts.ShareData.body">Hjälp till att förbättra Chauchera genom att dela dina anonyma data med oss</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Dela anonyma data</string>
   <!-- Enable touch ID prompt body -->
@@ -317,11 +325,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN-kod</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">Loaf har uppgraderat till att använda 6-siffrig PIN-kod. Klicka här för att uppgradera.</string>
+  <string name="Prompts.UpgradePin.body">Chauchera har uppgraderat till att använda 6-siffrig PIN-kod. Klicka här för att uppgradera.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Uppgradera PIN-kod</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Slå på aviseringar för att få särskilda meddelanden från Loaf i framtiden.</string>
+  <string name="PushNotifications.body">Slå på aviseringar för att få särskilda meddelanden från Chauchera i framtiden.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push-meddelanden</string>
   <!-- Push notifications are off label -->
@@ -351,7 +359,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Ange ordnyckel</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Återupprätta Loaf med din ordnyckel.</string>
+  <string name="RecoverWallet.intro">Återupprätta Chauchera med din ordnyckel.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Den ordnyckel du angav är ogiltig. Dubbelkolla varje ord och försök igen.</string>
   <!-- Previous button accessibility label -->
@@ -379,7 +387,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuter</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Om en transaktion visar sig som klar i Litecoins nätverk men inte i Loaf.</string>
+  <string name="ReScan.body2">Om en transaktion visar sig som klar i Chauchas nätverk men inte i Chauchera.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Du får gång på gång ett meddelande som säger att din transaktion avvisades.</string>
   <!-- Start Sync button label -->
@@ -405,17 +413,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Aktivera alla säkerhetsfunktioner för maximal säkerhet.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Det enda sättet att komma åt dina Litecoin om du förlorar eller uppgraderar din telefon.</string>
+  <string name="SecurityCenter.paperKeyDescription">Det enda sättet att komma åt dina Chaucha om du förlorar eller uppgraderar din telefon.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Ordnyckel</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Skyddar ditt Loaf från obehöriga användare.</string>
+  <string name="SecurityCenter.pinDescription">Skyddar ditt Chauchera från obehöriga användare.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-siffrig PIN-kod</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Säkerhetscenter</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Lås enkelt upp ditt Loaf och skicka pengar upp till en inställd gräns.</string>
+  <string name="SecurityCenter.touchIdDescription">Lås enkelt upp ditt Chauchera och skicka pengar upp till en inställd gräns.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -425,13 +433,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Saldo: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Tillåt kameraåtkomst under Inställningar &gt; Appar &gt; Loaf &gt; Behörigheter</string>
+  <string name="Send.cameraUnavailabeMessage.android">Tillåt kameraåtkomst under Inställningar &gt; Appar &gt; Chauchera &gt; Behörigheter</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">Loaf har inte åtkomst till kameran</string>
+  <string name="Send.cameraUnavailabeTitle.android">Chauchera har inte åtkomst till kameran</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Gå till Inställningar för att ge tillgång till kameran.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">Loaf har inte tillgång till kameran</string>
+  <string name="Send.cameraUnavailableTitle">Chauchera har inte tillgång till kameran</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Destinationen är din egen adress. Du kan inte skicka till dig själv.</string>
   <!-- Could not create transaction alert title -->
@@ -445,9 +453,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Betalningsmottagaren är inte certifierad.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Mottagaradressen är inte en giltig Litecoin-adress.</string>
+  <string name="Send.invalidAddressMessage">Mottagaradressen är inte en giltig Chaucha-adress.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Urklipp innehåller inte en giltig Litecoinadress.</string>
+  <string name="Send.invalidAddressOnPasteboard">Urklipp innehåller inte en giltig Chauchaadress.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Ogiltig adress</string>
   <!-- Is rescanning error message -->
@@ -473,7 +481,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Till</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Litecoin-adresser är avsedda för engångsanvändning.</string>
+  <string name="Send.UsedAddress.firstLine">Chaucha-adresser är avsedda för engångsanvändning.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Återanvändning minskar sekretessen både för dig och mottagaren och kan sluta i förlust om mottagaren inte direkt kontrollerar adressen.</string>
   <!-- Adress already used alert title -->
@@ -486,8 +494,8 @@
   <string name="Settings.currency">Visa valuta</string>
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Använd Snabb tillgång</string>
-  <!-- Are you enjoying Loaf alert message body -->
-  <string name="Settings.enjoying">Gillar du Loaf?</string>
+  <!-- Are you enjoying Chauchera alert message body -->
+  <string name="Settings.enjoying">Gillar du Chauchera?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importera plånbok</string>
   <!-- Manage settings section header -->
@@ -511,7 +519,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Starta/Återställ en annan plånbok</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Hjälp till att förbättra Loaf genom att dela dina anonyma uppgifter med oss. Detta inbegriper inga ekonomiska uppgifter. Vi respekterar din ekonomiska sekretess.</string>
+  <string name="ShareData.body">Hjälp till att förbättra Chauchera genom att dela dina anonyma uppgifter med oss. Detta inbegriper inga ekonomiska uppgifter. Vi respekterar din ekonomiska sekretess.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Dela uppgifter?</string>
   <!-- Share data switch label. -->
@@ -519,13 +527,13 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Skriv ner ordnyckel på nytt</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Din ordnyckel  är enda sättet att återupprätta Loaf om du förlorat din telefon, blivit bestulen på den eller har uppgraderat den.\n\nVi visar dig en lista över ord som du kan skriva ner på ett papper och gömma undan.</string>
+  <string name="StartPaperPhrase.body">Din ordnyckel  är enda sättet att återupprätta Chauchera om du förlorat din telefon, blivit bestulen på den eller har uppgraderat den.\n\nVi visar dig en lista över ord som du kan skriva ner på ett papper och gömma undan.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Skriv ner ordnyckel</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Senast skrev du ner din ordnyckel på %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Det säkraste och tryggaste sättet att använda Litecoin.</string>
+  <string name="StartViewController.message">Det säkraste och tryggaste sättet att använda Chaucha.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Ansluter</string>
   <!-- Syncing view header text -->
@@ -551,14 +559,14 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Fingeravtrycksautentisering har inte aktiverats</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Använd ditt fingeravtryck för att låsa upp Loaf och skicka pengar upp till en inställd gräns.</string>
+  <string name="TouchIdSettings.label">Använd ditt fingeravtryck för att låsa upp Chauchera och skicka pengar upp till en inställd gräns.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Sida för utgiftsgräns i Touch ID</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Utnyttjandegräns: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Aktivera Touch ID för Loaf</string>
-  <!-- Enable fingerprint for this wallet called Loaf -->
+  <string name="TouchIdSettings.switchLabel">Aktivera Touch ID för Chauchera</string>
+  <!-- Enable fingerprint for this wallet called Chauchera -->
   <string name="TouchIdSettings.switchLabel.android">Aktivera fingeravtrycksautentisering</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
@@ -635,7 +643,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">till %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Litecoin transaktions-ID</string>
+  <string name="TransactionDetails.txHashHeader">Chaucha transaktions-ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Togs emot på den här adressen</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -653,7 +661,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Touchsensor</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Lås upp Loaf.</string>
+  <string name="UnlockScreen.touchIdPrompt">Lås upp Chauchera.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Lås upp din Android-enhet för att fortsätta.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -663,9 +671,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Plånbok upplåst</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Kom ihåg PIN-koden. Om du glömmer den, kommer du inte åt dina Litecoin.</string>
+  <string name="UpdatePin.caption">Kom ihåg PIN-koden. Om du glömmer den, kommer du inte åt dina Chaucha.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Din PIN-kod används för att låsa upp ditt Loaf och skicka pengar</string>
+  <string name="UpdatePin.createInstruction">Din PIN-kod används för att låsa upp ditt Chauchera och skicka pengar</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Ställ in PIN-kod</string>
   <!-- Update PIN title -->
@@ -699,7 +707,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Godkänn denna transaktion</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Öppna iPhone-appen Loaf för att ställa in din plånbok.</string>
+  <string name="Watch.noWalletWarning">Öppna iPhone-appen Chauchera för att ställa in din plånbok.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Avfärda</string>
   <!-- Webview loading error message -->
@@ -707,9 +715,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Uppdaterar...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loafplånboken har bytt namn till Loaf, med ett splitter nytt utseende och några nya funktioner.\n\nOm du behöver hjälp, leta efter (?)-tecknet i det övre högra hörnet på de flesta skärmar.</string>
+  <string name="Welcome.body">Chaucheraplånboken har bytt namn till Chauchera, med ett splitter nytt utseende och några nya funktioner.\n\nOm du behöver hjälp, leta efter (?)-tecknet i det övre högra hörnet på de flesta skärmar.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Välkommen till Loaf!</string>
+  <string name="Welcome.title">Välkommen till Chauchera!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Är du säker på att du vill ta bort den här plånboken.</string>
   <!-- Wipe wallet alert title -->
@@ -721,9 +729,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Ange den här plånbokens återställningsfras för att rensa den och starta eller återställa en annan. Ditt nuvarande saldo är kvar på den här frasen.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Att starta eller återställa en annan plånbok ger dig tillgång till och låter dig hantera en annan Loafplånbok på denna enhet.</string>
+  <string name="WipeWallet.startMessage">Att starta eller återställa en annan plånbok ger dig tillgång till och låter dig hantera en annan Chaucheraplånbok på denna enhet.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Du kommer inte längre att kunna komma åt din aktuella Loafplånbok från denna enhet. Saldot kommer att kvarstå på frasen.</string>
+  <string name="WipeWallet.startWarning">Du kommer inte längre att kunna komma åt din aktuella Chaucheraplånbok från denna enhet. Saldot kommer att kvarstå på frasen.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Starta eller hämta en annan plånbok</string>
   <!-- Wipe wallet button title -->

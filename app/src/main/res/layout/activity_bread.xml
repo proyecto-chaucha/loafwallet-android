@@ -32,7 +32,7 @@
                 android:id="@+id/bread_bar"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:background="@drawable/bread_gradient"
+                android:background="@drawable/bread_gradient_home"
                 android:clipChildren="false"
                 android:clipToPadding="false"
                 android:contentInsetLeft="0dp"

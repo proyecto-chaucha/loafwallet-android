@@ -23,9 +23,10 @@ public class AboutActivity extends BRActivity {
     private TextView policyText;
     private TextView infoText;
 
-    private ImageView redditShare;
-    private ImageView twitterShare;
-    private ImageView blogShare;
+    private ImageView websiteShare;
+    private ImageView facebookShare;
+    private ImageView telegramShare;
+    private ImageView githubShare;
     private static AboutActivity app;
 
     public static AboutActivity getApp() {
@@ -57,28 +58,29 @@ public class AboutActivity extends BRActivity {
 
         infoText.setText(String.format(Locale.getDefault(), getString(R.string.About_footer), verCode));
 
-        redditShare = (ImageView) findViewById(R.id.reddit_share_button);
-        twitterShare = (ImageView) findViewById(R.id.twitter_share_button);
-        blogShare = (ImageView) findViewById(R.id.blog_share_button);
+        websiteShare = (ImageView) findViewById(R.id.website_share_button);
+        facebookShare = (ImageView) findViewById(R.id.facebook_share_button);
+        telegramShare = (ImageView) findViewById(R.id.telegram_share_button);
+        githubShare = (ImageView) findViewById(R.id.github_share);
 
-        redditShare.setOnClickListener(new View.OnClickListener() {
+        telegramShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(BRConstants.REDDIT_LINK));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(BRConstants.TELEGRAM_LINK));
                 startActivity(browserIntent);
                 app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
             }
         });
 
-        twitterShare.setOnClickListener(new View.OnClickListener() {
+        facebookShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(BRConstants.TWITTER_LINK));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(BRConstants.FACEBOOK_LINK));
                 startActivity(browserIntent);
                 app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
             }
         });
-        blogShare.setOnClickListener(new View.OnClickListener() {
+        websiteShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(BRConstants.WEB_LINK));
@@ -86,6 +88,16 @@ public class AboutActivity extends BRActivity {
                 app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
             }
         });
+
+        githubShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(BRConstants.GITHUB_LINK));
+                startActivity(browserIntent);
+                app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
+            }
+        });
+
         policyText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

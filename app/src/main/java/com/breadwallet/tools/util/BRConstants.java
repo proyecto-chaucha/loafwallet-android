@@ -110,8 +110,8 @@ public class BRConstants {
     public static final int CURRENT_UNIT_LITES = 1; // formerly CURRENT_UNIT_MBITS
     public static final int CURRENT_UNIT_LITECOINS = 2;
 
-    public static final String bitcoinLowercase = "\u0142";
-    public static final String bitcoinUppercase = "\u0141";
+    public static final String bitcoinLowercase = "\u00A2";
+    public static final String bitcoinUppercase = "\u00A2";
 
     public static final long PASS_CODE_TIME_LIMIT = TimeUnit.MILLISECONDS.convert(6, TimeUnit.DAYS);
 
@@ -146,10 +146,17 @@ public class BRConstants {
 
     public static final String TWITTER_LINK = "https://twitter.com/loafwallet";
     public static final String REDDIT_LINK = "https://www.reddit.com/r/litecoin";
-    public static final String WEB_LINK = "https://loafwallet.org";
-    public static final String TOS_LINK = "https://loafwallet.org/tos";
+    public static final String WEB_LINK = "https://www.chaucha.cl/";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "https://testnet.litecore.io/tx/" :"https://insight.litecore.io/tx/";
+    public static final String FACEBOOK_LINK = "https://www.facebook.com/proyectochaucha";
+    public static final String TELEGRAM_LINK = "https://t.me/chaucha";
+    public static final String GITHUB_LINK = "https://github.com/proyecto-chaucha";
+
+
+
+    public static final String TOS_LINK = "https://www.chaucha.cl/tos";
+
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "https://testnet.litecore.io/tx/" :"http://insight.chaucha.cl/tx/";
 
     private BRConstants() {
     }

@@ -1,0 +1,16 @@
+Executable : /home/ignacio/Android/Sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/home/ignacio/Escritorio/Ignacio/Proyectos/loafwallet-android/app
+-B/home/ignacio/Escritorio/Ignacio/Proyectos/loafwallet-android/app/.cxx/cmake/loafTestnetDebug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/ignacio/Escritorio/Ignacio/Proyectos/loafwallet-android/app/build/intermediates/cmake/loafTestnetDebug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/home/ignacio/Android/Sdk/ndk-bundle
+-DCMAKE_C_FLAGS=-DBITCOIN_TESTNET=1
+-DCMAKE_TOOLCHAIN_FILE=/home/ignacio/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/ignacio/Android/Sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_TOOLCHAIN=clang
+jvmArgs : 
+

@@ -70,14 +70,14 @@ public class DisplayCurrencyActivity extends BRActivity {
         listView = findViewById(R.id.currency_list_view);
         adapter = new CurrencyListAdapter(this);
         adapter.addAll(CurrencyDataSource.getInstance(this).getAllCurrencies());
-        leftButton = findViewById(R.id.left_button);
+        //leftButton = findViewById(R.id.left_button);
         rightButton = findViewById(R.id.right_button);
-        leftButton.setOnClickListener(new View.OnClickListener() {
+        /*leftButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 setButton(true);
             }
-        });
+        });*/
 
         rightButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -120,7 +120,7 @@ public class DisplayCurrencyActivity extends BRActivity {
         if (entity != null) {
             String finalExchangeRate = BRCurrency.getFormattedCurrencyString(DisplayCurrencyActivity.this, BRSharedPrefs.getIso(this), new BigDecimal(entity.rate));
             boolean bits = BRSharedPrefs.getCurrencyUnit(this) == BRConstants.CURRENT_UNIT_LITES;
-            exchangeText.setText(BRCurrency.getFormattedCurrencyString(this, "LTC", new BigDecimal(bits ? 1000 : 1)) + " = " + finalExchangeRate);
+            exchangeText.setText(BRCurrency.getFormattedCurrencyString(this, "CHA", new BigDecimal(bits ? 1000 : 1)) + " = " + finalExchangeRate);
         }
         adapter.notifyDataSetChanged();
     }
@@ -128,14 +128,14 @@ public class DisplayCurrencyActivity extends BRActivity {
     private void setButton(boolean left) {
         if (left) {
             BRSharedPrefs.putCurrencyUnit(this, BRConstants.CURRENT_UNIT_LITES);
-            leftButton.setTextColor(getColor(R.color.white));
-            leftButton.setBackground(getDrawable(R.drawable.b_half_left_blue));
+            /*leftButton.setTextColor(getColor(R.color.white));
+            leftButton.setBackground(getDrawable(R.drawable.b_half_left_blue));*/
             rightButton.setTextColor(getColor(R.color.dark_blue));
             rightButton.setBackground(getDrawable(R.drawable.b_half_right_blue_stroke));
         } else {
             BRSharedPrefs.putCurrencyUnit(this, BRConstants.CURRENT_UNIT_LITECOINS);
-            leftButton.setTextColor(getColor(R.color.dark_blue));
-            leftButton.setBackground(getDrawable(R.drawable.b_half_left_blue_stroke));
+            /*leftButton.setTextColor(getColor(R.color.dark_blue));
+            leftButton.setBackground(getDrawable(R.drawable.b_half_left_blue_stroke));*/
             rightButton.setTextColor(getColor(R.color.white));
             rightButton.setBackground(getDrawable(R.drawable.b_half_right_blue));
         }

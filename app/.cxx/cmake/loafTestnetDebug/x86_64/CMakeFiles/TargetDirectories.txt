@@ -1,0 +1,3 @@
+/home/ignacio/Escritorio/Ignacio/Proyectos/loafwallet-android/app/.cxx/cmake/loafTestnetDebug/x86_64/CMakeFiles/edit_cache.dir
+/home/ignacio/Escritorio/Ignacio/Proyectos/loafwallet-android/app/.cxx/cmake/loafTestnetDebug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/ignacio/Escritorio/Ignacio/Proyectos/loafwallet-android/app/.cxx/cmake/loafTestnetDebug/x86_64/CMakeFiles/core-lib.dir
