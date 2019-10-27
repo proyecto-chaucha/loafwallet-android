@@ -105,7 +105,7 @@ public class PromptManager {
         if (shouldPrompt(app, UPGRADE_PIN)) return UPGRADE_PIN;
         if (shouldPrompt(app, PAPER_KEY)) return PAPER_KEY;
         if (shouldPrompt(app, FINGER_PRINT)) return FINGER_PRINT;
-        if (shouldPrompt(app, SHARE_DATA)) return SHARE_DATA;
+        //if (shouldPrompt(app, SHARE_DATA)) return SHARE_DATA;
         return null;
     }
 
