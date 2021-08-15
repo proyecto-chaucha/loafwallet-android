@@ -35,7 +35,7 @@ Simplicity and ease-of-use is **ChaucheraWallet**'s core design principle. A sim
 3. Download NDK r15c from the [NDK Archives](https://developer.android.com/ndk/downloads/older_releases.html)
 4. Clone this repo & init submodules
 ```bash
-$ git clone https://github.com/litecoin-foundation/loafwallet-android
+$ git clone https://github.com/proyecto-chaucha/loafwallet-android
 $ git submodule init
 $ git submodule update
 ```
